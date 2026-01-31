@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vite.dev/config/
+// GitHub Pages uchun base URL
 export default defineConfig({
-  base: "/",
+  base: "/my-portfolio/",
   plugins: [vue()],
 })
